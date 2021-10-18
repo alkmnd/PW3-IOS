@@ -14,6 +14,7 @@
 		09D4AE95271DD079009BE775 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4AE94271DD079009BE775 /* TableViewController.swift */; };
 		09D4AE97271DD08A009BE775 /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4AE96271DD08A009BE775 /* StackViewController.swift */; };
 		09D4AE99271DD099009BE775 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4AE98271DD099009BE775 /* CollectionViewController.swift */; };
+		09D4AE9C271DF9F4009BE775 /* UIView_Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4AE9B271DF9F4009BE775 /* UIView_Pin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		09D4AE94271DD079009BE775 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		09D4AE96271DD08A009BE775 /* StackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
 		09D4AE98271DD099009BE775 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		09D4AE9B271DF9F4009BE775 /* UIView_Pin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView_Pin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		09D4AE79271DCE45009BE775 /* nabelova_1PW3 */ = {
 			isa = PBXGroup;
 			children = (
+				09D4AE9A271DF9D2009BE775 /* Instruments */,
 				09D4AE91271DCEED009BE775 /* Views */,
 				09D4AE8F271DCEC2009BE775 /* ViewControllers */,
 				09D4AE8E271DCEA1009BE775 /* Delegates */,
@@ -92,6 +95,14 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		09D4AE9A271DF9D2009BE775 /* Instruments */ = {
+			isa = PBXGroup;
+			children = (
+				09D4AE9B271DF9F4009BE775 /* UIView_Pin.swift */,
+			);
+			path = Instruments;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09D4AE9C271DF9F4009BE775 /* UIView_Pin.swift in Sources */,
 				09D4AE93271DD01F009BE775 /* AppDelegate.swift in Sources */,
 				09D4AE97271DD08A009BE775 /* StackViewController.swift in Sources */,
 				09D4AE95271DD079009BE775 /* TableViewController.swift in Sources */,

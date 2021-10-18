@@ -13,9 +13,19 @@ class TableViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.systemYellow
-        //setupTableView()
+        setupTableView()
         
         
+        
+    }
+    private func setupTableView() {
+        let table = UITableView(frame: .zero)
+        view.addSubview(table)
+        table.pinTop(to: view.safeAreaLayoutGuide.topAnchor)
+        table.pinBottom(to: view.safeAreaLayoutGuide.bottomAnchor)
+        table.pin(to: view, .left, .right)
+        table.backgroundColor = .white
+        self.table = table
         
     }
 }
