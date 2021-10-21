@@ -45,7 +45,7 @@ class AlarmModel : UIView {
         toggle.pinTop(to: topAnchor, 10)
         toggle.setHeight(to: 40)
         toggle.setWidth(to: 40)
-        timeLabel.pinTop(to: topAnchor, Double(frame.height / 2) + 2)
+        timeLabel.pinTop(to: topAnchor, 10)
         timeLabel.leftAnchor.constraint(equalTo: leftAnchor, constant: 5).isActive = true
         toggle.addTarget(self, action: #selector(locationToggleSwitched),for: .valueChanged)
         
@@ -54,9 +54,21 @@ class AlarmModel : UIView {
     @objc
     func locationToggleSwitched(_ sender: UISwitch) {
         if sender.isOn {
-            timeLabel.textColor = UIColor.white
+            if(timeLabel.textColor == .systemGray2)
+            {
+                timeLabel.textColor = UIColor.white
+            } else {
+                timeLabel.textColor = UIColor.black
+            }
         } else {
-            timeLabel.textColor = UIColor.systemGray5
+            
+            if(timeLabel.textColor == .white)
+            {
+                timeLabel.textColor = UIColor.systemGray2
+            } else {
+                timeLabel.textColor = UIColor.systemGray4
+            }
+           
         }
     }
 }

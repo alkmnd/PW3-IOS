@@ -19,6 +19,7 @@
 		09D4AEA2271E0A41009BE775 /* TimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4AEA1271E0A41009BE775 /* TimeModel.swift */; };
 		09D4AEA5271E1567009BE775 /* StackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4AEA4271E1567009BE775 /* StackCell.swift */; };
 		09D4AEA7271E35FC009BE775 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4AEA6271E35FC009BE775 /* TableCell.swift */; };
+		09D4AEA927218E64009BE775 /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4AEA827218E64009BE775 /* CollectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		09D4AEA1271E0A41009BE775 /* TimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeModel.swift; sourceTree = "<group>"; };
 		09D4AEA4271E1567009BE775 /* StackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackCell.swift; sourceTree = "<group>"; };
 		09D4AEA6271E35FC009BE775 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		09D4AEA827218E64009BE775 /* CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CollectionCell.swift; path = ../../../../../../Documents/CollectionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 			children = (
 				09D4AEA4271E1567009BE775 /* StackCell.swift */,
 				09D4AEA6271E35FC009BE775 /* TableCell.swift */,
+				09D4AEA827218E64009BE775 /* CollectionCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				09D4AE95271DD079009BE775 /* TableViewController.swift in Sources */,
 				09D4AE7D271DCE45009BE775 /* SceneDelegate.swift in Sources */,
 				09D4AE9E271E0185009BE775 /* AlarmModel.swift in Sources */,
+				09D4AEA927218E64009BE775 /* CollectionCell.swift in Sources */,
 				09D4AE99271DD099009BE775 /* CollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
