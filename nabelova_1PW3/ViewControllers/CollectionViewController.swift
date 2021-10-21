@@ -22,6 +22,7 @@ class CollectionViewController: UIViewController, UICollectionViewDataSource, UI
         let layoutFlow = UICollectionViewFlowLayout()
         layoutFlow.sectionInset = UIEdgeInsets(top: 10, left: 60, bottom: 25, right: 60)
         layoutFlow.itemSize = CGSize(width: view.frame.width - 60, height: view.frame.height / 15)
+        layoutFlow.scrollDirection = .horizontal
 //        layoutFlow.sectionInset = UIEdgeInsets(top: 20, left: 10,
 //                                               bottom: 10, right: 10)
 //        layoutFlow.itemSize = CGSize(width: 60, height: 60)
@@ -38,6 +39,7 @@ class CollectionViewController: UIViewController, UICollectionViewDataSource, UI
         collection.register(CollectionCell.self, forCellWithReuseIdentifier: "cellView")
         collection.showsVerticalScrollIndicator = true
         collection.translatesAutoresizingMaskIntoConstraints = false
+        collection.layer.masksToBounds = true
         self.view.addSubview(collection)
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
